@@ -56,7 +56,7 @@ def Authentifier():
         fenetre.destroy()
         subprocess.run(["python","interface.py"])
     else : 
-        messagebox.showerror("Erreur","Email ou Mot de Passe incorrect ")
+        messagebox.showerror("Erreur","Impossible ❌ ")
 
 var6  =  CTk.CTkButton(fenetre,font=("Arial",30),width=300,text="Connexion",command=Authentifier)
 var6.place(x=480,y=350)
